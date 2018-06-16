@@ -1,0 +1,35 @@
+<=================================Angular 2===============================>
+
+
+                    Step 1. Set up the Development Environment
+					
+
+                                    Install Node.js® and npm if they are not already on your machine.
+									
+									if want to check node and npm version then type this command,
+									
+									node -v
+									
+									npm  -v
+									
+									
+					Step 2. Then install the Angular CLI globally.				
+					                
+									
+									npm install -g @angular/cli									
+									
+									
+					Step 3. Create a new project. 
+                                    
+									
+									Open a terminal window.
+									
+									ng new my-app
+									
+									
+					Step 3: Run the application.
+					
+					               
+								    ng serve --open
+									
+									Using the --open (or just -o) option will automatically open your browser on http://localhost:4200/
