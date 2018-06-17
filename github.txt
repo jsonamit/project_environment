@@ -1,0 +1,60 @@
+*===>Merge Two Branches.
+
+        <------->git add .<------->======>>>><------------>Add all file file at a time<----------->
+        <------->git add filename.c<------->======>>>><------------>Add one file at a time<----------->
+        <------->git commit -m 'Added strlen function'<------->
+        <------->git push origin branchname<------->
+        <------->git push origin master<------->
+		<------->git rm --cached file<---------><======>remove file from add file<=========>
+
+*===>the git log command to view the commit details.
+
+        <------>git log<------->
+		
+*===>Before push operation, he wants to review his changes, so he uses the git show command to review his changes.
+
+        <------>git show<------->
+		
+*===>Check the git status.  
+  
+        <------>git status<------->
+		
+*===>Push the code to server
+
+        <------>git push origin master<-------->
+		
+*===>Clone operation.
+    
+	    <------>git clone url<------>
+		
+*===>Check the diff
+
+        <------>git diff<------>
+		
+*===>Fetch Latest Changes.
+
+        <------>git pull<------->
+		
+*===>To make these changes permanent, we have to push the modified directory structure to the remote repository so that other developers can see this.
+
+        <------>git commit -m "Modified directory structure"<------->
+		
+*===>Revert the contents of a file.
+
+        <------> git checkout branchname<------->
+		
+*===>Create Branch.
+
+        <------>git branch new_branch<------->
+		
+*===>Check the branch.
+
+        <------>git branch<------->
+		
+*===>Delete a Branch.
+
+        <------->git branch -D test_branch<-------->
+		
+*===>Rename a Branch
+        
+		<------->git branch -m new_branch wchar_support<-------->
