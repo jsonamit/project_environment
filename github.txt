@@ -58,3 +58,9 @@
 *===>Rename a Branch
         
 		<------->git branch -m new_branch wchar_support<-------->
+
+		git init
+
+git remote add origin url
+
+git push -u origin master

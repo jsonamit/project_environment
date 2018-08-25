@@ -1,4 +1,4 @@
-<=================================Angular 2===============================>
+﻿<=================================Angular 2===============================>
 
 
                     Step 1. Set up the Development Environment
@@ -32,4 +32,15 @@
 					               
 								    ng serve --open
 									
-									Using the --open (or just -o) option will automatically open your browser on http://localhost:4200/
+								Using the --open (or just -o) option will automatically open your browser on http://localhost:4200/
+
+
+                                       Step 3: Create component.
+                                              
+                                                                ng g c component_name
+
+                                       Step 3: Create service.
+
+                                                               ng g service service_name
+
+
