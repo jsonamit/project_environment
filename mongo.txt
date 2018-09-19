@@ -1,0 +1,37 @@
+                     show dbs           =====> use for show database.
+												  
+												  use database_name  =====> select database if there no database create database.
+												  
+												  db.createUser      =====> create user and password.
+												  
+												  db.createCollection('register')==> create collection for database and give collection name inside braket.
+												  
+												  show collection    =====> this command show which collection have created.
+												  
+												  db.register.insert({"key":"value"}) ====> insert data command
+												  
+												  db.register.find() =====> find the recoard from collection.
+												  
+												  db.register.update({"key":"value"}) ====> update the recoard.
+												  
+												  db.register.remove({})  ====> delete the user from collection.
+												  
+												  db.register.find({age:{$lt:40}})  ====> find recoard less than 40 age.
+												  
+												  db.register.find({age:{$gt:40}})  ====> find recoard greater than 40 age.
+												  
+												  db.register.find().sort({key:1})  ====>  sort data in ascending order.
+												  
+												  db.register.find().sort({key:-1}) ====>  sort data in descending order.
+												  
+												  db.dropDatabase()                =====> drop database
+                                                                                                   
+                                                                                                  db.register.findOne()            =====> return first recoard
+                                  
+                                                                                                  db.register.remove({"_id":"fgfsdf7327763bc"}) =====> delete the one recoard from table
+
+                                                                                                  db.register.update({"_id":"fgfsdf7327763bc"},{"key":"value","key":"value"}) ====> update the recoard according to id.
+
+                                                                                                  show.collection  ======> show the colection in our database
+
+                                                                                                  db.register.drop()   ===> drop the collection from database
